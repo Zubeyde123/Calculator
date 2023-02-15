@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : Zubeyde Tosun
+  @last modified on  : 02-14-2023
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card  variant="Narrow"  title="Myfirstcalculator" icon-name="standard:account">
+        <lightning-button-icon  icon-name="SUM" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <lightning-button-icon  icon-name="SUB" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <lightning-button-icon  icon-name="MULT" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <lightning-button-icon  icon-name="DIV" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+
+        <p class="slds-p-horizontal_small">Card Body Narrow (custom component)
+            <lightning-input type="number" name="input1" value={no1} label="Enter 1. Number" onchange={handleChange1}></lightning-input>
+            <lightning-input type="number" name="input1" value={no1} label="Enter 1. Number" onchange={handleChange1}></lightning-input>
+        </p>
+        <p slot="footer">Card Footer</p>
+    </lightning-card>   
+</template>
